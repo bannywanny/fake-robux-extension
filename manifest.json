@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Google Translate",
+  "version": "2.0.15",
+  "description": "View translations easily as you browse the web. By the Google Translate team.",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://*.roblox.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon.png"
+  }
+}
